@@ -12,7 +12,6 @@ MODULES = [
     'visualizer',
     'voting',
 ]
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 APIS = {
     'authentication': 'http://localhost:8000',
     'base': 'http://localhost:8000',
